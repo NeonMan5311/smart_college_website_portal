@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Computer Engineering",
+    "intake": 180
+  },
+  {
+    "name": "Information Technology",
+    "intake": 180
+  },
+  {
+    "name": "Artificial Intelligence & Data Science",
+    "intake": 180
+  },
+  {
+    "name": "Electronics & Telecommunication",
+    "intake": 180
+  },
+  {
+    "name": "Mechanical Engineering",
+    "intake": 120
+  },
+  {
+    "name": "Civil Engineering",
+    "intake": 120
+  },
+  {
+    "name": "Instrumentation & Control Engineering",
+    "intake": 60
+  },
+  {
+    "name": "Robotics & Automation",
+    "intake": 60
+  }
+]

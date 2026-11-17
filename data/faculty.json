@@ -1,0 +1,62 @@
+{
+  "aids": [
+    {
+      "name": "Dr. Snehal Patil",
+      "role": "Professor & HOD",
+      "qual": "Ph.D. in CS",
+      "exp": "15 Years"
+    },
+    {
+      "name": "Prof. Rahul Kulkarni",
+      "role": "Associate Professor",
+      "qual": "M.Tech. AI & ML",
+      "exp": "9 Years"
+    },
+    {
+      "name": "Prof. Priya Joshi",
+      "role": "Assistant Professor",
+      "qual": "M.E. Data Science",
+      "exp": "6 Years"
+    }
+  ],
+  "comp": [
+    {
+      "name": "Dr. Sandeep Shinde",
+      "role": "Professor & HOD",
+      "qual": "Ph.D. in CE",
+      "exp": "18 Years"
+    },
+    {
+      "name": "Prof. Anjali Deshmukh",
+      "role": "Associate Professor",
+      "qual": "M.E. Networks",
+      "exp": "11 Years"
+    },
+    {
+      "name": "Prof. Amit Verma",
+      "role": "Assistant Professor",
+      "qual": "M.Tech. Cloud",
+      "exp": "5 Years"
+    }
+  ],
+  "it": [
+    {
+      "name": "Dr. Rajesh Kadam",
+      "role": "Professor & HOD",
+      "qual": "Ph.D. in IT",
+      "exp": "16 Years"
+    },
+    {
+      "name": "Prof. Pooja Nair",
+      "role": "Assistant Professor",
+      "qual": "M.Tech. Cybersecurity",
+      "exp": "7 Years"
+    },
+    {
+      "name": "Prof. Vikram Gokhale",
+      "role": "Assistant Professor",
+      "qual": "M.E. Software Eng.",
+      "exp": "4 Years"
+    }
+  ]
+}
