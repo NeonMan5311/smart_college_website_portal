@@ -59,7 +59,7 @@ js/views/               home, departments, faculty, admissions, contact, notfoun
 | notices.json | notices (5) | Home view |
 
 ## 7. Testing
-Automated browser tests (Chromium): no reload, routing, history, deep links, 404, security, data,
+Automated browser tests : no reload, routing, history, deep links, 404, security, data,
 loading and error states, stale answers, enquiry form, responsive widths, JavaScript off, console errors.
 All passed.
 

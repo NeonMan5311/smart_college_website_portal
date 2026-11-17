@@ -25,46 +25,6 @@ function renderHeader(box) {
   `;
 }
 
-async function fillDropdown(menu) {
-  try {
-    const depts = await getData('departments');
-    depts.forEach(dept => {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = '#/departments';
-      a.textContent = dept.name;
-      li.appendChild(a);
-      menu.appendChild(li);
-    });
-  } catch (e) {}
-}
-
-function addDropdown(item) {
-  item.classList.add('has-dropdown');
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.className = 'dropdown-toggle';
-  btn.textContent = ' ▾';
-  
-  const menu = document.createElement('ul');
-  menu.className = 'dropdown';
-  menu.style.display = 'none';
-
-  fillDropdown(menu);
-
-  btn.addEventListener('click', (e) => {
-    e.stopPropagation();
-    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
-  });
-
-  document.addEventListener('click', () => {
-    menu.style.display = 'none';
-  });
-
-  item.appendChild(btn);
-  item.appendChild(menu);
-}
-
 function renderNav(box) {
   box.textContent = '';
   const ul = document.createElement('ul');
@@ -75,10 +35,6 @@ function renderNav(box) {
     a.textContent = item.label;
     a.dataset.route = item.path;
     li.appendChild(a);
-
-    if (item.path === 'departments') {
-      addDropdown(li);
-    }
     ul.appendChild(li);
   });
   box.appendChild(ul);
