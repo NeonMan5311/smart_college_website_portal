@@ -1,10 +1,10 @@
 # D. Y. Patil College of Engineering Portal (PR5: single-page application)
 
-Final project of the Web Technology I Lab (AD124PE508.1). A front-end only portal for
-"D. Y. Patil College of Engineering, Akurdi" built with HTML5, CSS3 and JavaScript (no frameworks).
-It combines the work of the five practicals: HTML structure (PR1), responsive CSS (PR2),
-client-side validation and localStorage (PR3), JSON data loaded with fetch / async-await (PR4)
-and single-page navigation (PR5).
+Final project of the Web Technology I Lab (AD124PE508.1). A front-end only portal for  
+"D. Y. Patil College of Engineering, Akurdi" built with HTML5, CSS3 and JavaScript (no frameworks).  
+It combines the work of the five practicals: HTML structure (PR1), responsive CSS (PR2),  
+client-side validation and localStorage (PR3), JSON data loaded with fetch / async-await (PR4)  
+and single-page navigation (PR5).  
 
 ## 1. Features
 - One HTML document (`index.html`); the pages change without reloading the browser.
